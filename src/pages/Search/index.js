@@ -7,7 +7,7 @@ import { SearchBar, MoviesList } from './style';
 
 const Search = () => {
   const [movies, setMovies] = useState([]);
-  const [searchContent, setSearchContent] = useState('batman');
+  const [searchContent, setSearchContent] = useState('');
   const [countPage, setCountPage] = useState(0);  
   const [page, setPage] = useState(1);
   const [slice, setSlice] = useState(0);
